@@ -8,5 +8,4 @@ print(data)
 
 def get_json_data():
     f = open("data.json")
-    data = json.load(f)
-    return data
+    return json.load(f)
