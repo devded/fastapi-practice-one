@@ -40,7 +40,6 @@ def read_item(item_id: int, q: Optional[str] = None):
 @app.get("/test/data")
 @hello_decorator
 def test_data():
-    data = get_json_data()
-    return data
+    return get_json_data()
 
 
